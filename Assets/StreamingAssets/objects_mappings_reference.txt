@@ -1,0 +1,31 @@
+>> Legenda <<
+
+. - Nothing
+: - Empty
+
+p - Player
+# - Wall
+
++ - Addition
+- - Subtraction
+x - Multiplication
+/ - Devision
+
+m - Memory Block
+i - Input Block
+o - Output Block
+
+>> Goal parisng <<
+
+(((A+B)+(C*D))-(E+F))
+((X+Y)-Z)
+(L-Z)
+G
+
+>> Variable Value Syntax <<
+
+{} - Exact Value Set
+[] - Inclusive Range
+
+A:[3,99]:{5,7,2}
+

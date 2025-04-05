@@ -1,0 +1,59 @@
+@ Add
+jump
+move: N 1
+move: W 1
+drop: N
+
+@ Sub
+jump
+move: N 1
+drop: N
+
+@ Mul
+jump
+drop: W
+
+@ Dev
+jump
+move: N 1
+move: E 1
+drop: E
+
+@ PickMiddle
+jump
+move: E 1
+pick: S
+
+@ PickLeft
+jump
+pick: S
+
+@ PickRight
+jump
+move: E 2
+pick: S
+
+@ Finish
+jump
+move: N 1
+move: E 1
+drop: N
+
+@ Main
+PickLeft
+Add
+PickRight
+Mul
+PickMiddle
+Mul
+jump
+move: N 1
+move: W 1
+pick: N
+Dev
+jump
+pick: W
+Dev
+pick: E
+drop: N
+Finish

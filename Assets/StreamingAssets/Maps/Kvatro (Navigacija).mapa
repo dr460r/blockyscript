@@ -1,0 +1,21 @@
+@Map 7x7
+
+@Blocks
+o o o . o o o
+o . o o o . o
+o o . . . o o
+. o o m . o .
+p = . . . o o
+o . o o o . o
+o o o . o o o
+
+@Items
+A:[1,99]:{}
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . A . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+A

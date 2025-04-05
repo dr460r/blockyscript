@@ -1,0 +1,13 @@
+@Map 3x3
+
+@Blocks
+= p o
+m . o
+o o o
+
+@Items
+A:[1,10]:{}
+. . .
+A . .
+. . .
+A

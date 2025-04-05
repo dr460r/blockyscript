@@ -1,0 +1,46 @@
+@GoToMemory
+jump
+move: E 2
+move: S 1
+move: E 3
+move: N 2
+move: W 2
+move: N 2
+
+@Copy1
+GoToMemory
+move: N 1
+copy: N
+
+@Copy2
+GoToMemory
+move: N 1
+move: E 1
+copy: N
+
+@Copy3
+GoToMemory
+move: N 1
+move: E 1
+copy: E
+
+@Copy4
+GoToMemory
+move: E 1
+copy: E
+
+@Program
+Copy1
+jump
+Copy2
+jump
+Copy3
+jump
+Copy4
+jump
+
+
+
+
+
+

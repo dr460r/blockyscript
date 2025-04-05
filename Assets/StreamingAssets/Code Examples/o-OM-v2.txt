@@ -1,0 +1,48 @@
+@Program
+pick: E
+drop: N
+move: S 1
+move: E 2
+move: N 2
+move: E 2
+move: S 2
+move: E 2
+move: N 3
+pick: W
+move: N 3
+move: W 2
+move: S 2
+move: W 2
+move: N 2
+move: W 2
+move: S 1
+drop: E
+move: S 2
+pick: S
+move: N 2
+drop: E
+pick: E
+move: N 1
+move: E 2
+move: S 1
+drop: E
+jump
+move: S 1
+move: E 2
+move: N 1
+pick: E
+move: N 1
+move: E 2
+move: S 2
+move: E 2
+move: N 6
+move: W 2
+move: S 1
+drop: W
+pick: W
+move: S 1
+move: W 2
+move: N 2
+move: W 2
+move: S 3
+drop: S

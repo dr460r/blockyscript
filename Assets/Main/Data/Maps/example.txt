@@ -1,0 +1,18 @@
+@Map 4x4 
+
+@Blocks 
++ - o #
+: : : /
+x p : :
+# m m m
+
+@ItemsConf
+A:11:Z
+B:2:Z
+C:5:Z
+C . . .
+. . . . 
+. . . .
+. A B C
+((C+A)/(C*B))
+
